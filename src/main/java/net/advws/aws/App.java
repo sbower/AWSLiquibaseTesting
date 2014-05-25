@@ -84,9 +84,7 @@ public class App
     java.sql.Connection c = null;
     Liquibase liquibase = null;
     String connString = "jdbc:mysql://" + URL + "/kuldev?user=kuldev&password=kuldev";
-    
-    System.out.println(connString);
-    
+        
     try {
         c = DriverManager.getConnection(connString);
   
